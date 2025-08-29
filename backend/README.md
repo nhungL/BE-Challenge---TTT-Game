@@ -31,31 +31,30 @@ Includes player management, game logic (win/draw detection), REST API endpoints,
 
 ---
 
-### Prerequisites
-- Node.js (>=18)
-- npm or yarn
+## Running the Project
+```bash
+cd backend
+```
 
 ### Installation
 ```bash
-cd backend
 npm install
 ```
 
 ### Run Application
 ```bash
-cd backend
 npm run dev
 ```
 
 ### Run Simulation
 ```bash
-cd backend
 npm run simulation
 ```
 
+⚠️ 2 terminals: one for the API server and one for the simulation — otherwise the simulation won’t connect.
+
 ### Run Tests
-```bashs
-cd backend
+```bash
 npm test
 ```
 
