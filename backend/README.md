@@ -1,19 +1,20 @@
 # Backend Systems Challenge: Build a Distributed Grid-Based Game Engine
 
 A simple Node.js + TypeScript backend for managing games and players.  
-Includes player management, game logic (win/draw detection), REST API endpoints, and middleware for error handling and request logging.
+Includes player management, game logic (win/draw detection) and REST API endpoint.
 
 ---
 
 ## Features
 
-- **Game Logic**
+- **Game**
   - Create and manage grid-based games
   - Win condition checking (rows, columns, diagonals)
   - Draw condition checking (`only when all cells are filled with no winner`)
   - Game state transitions (`waiting → active → completed`)
+  - Leaderboard (win count, efficiency)
 
-- **Player Management**
+- **Player**
   - Create, update, delete players
   - Email validation and uniqueness checks
   - Track player statistics (wins, losses, ties, efficiency)
@@ -24,7 +25,7 @@ Includes player management, game logic (win/draw detection), REST API endpoints,
   - Proper error handling
 
 - **Middleware**
-  - 404 and global error handling
+  - Error handling
 
 - **Simulation Script (scripts/simulationAPI.ts)**
   - Example script to test endpoints with concurrent games
