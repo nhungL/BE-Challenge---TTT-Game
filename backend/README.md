@@ -61,7 +61,6 @@ npm test
 ---
 
 ## Future Improvements (Next Steps)
-- Return consistent error codes (e.g., distinguish 400 vs 404 clearly).
 - Add persistent storage (currently in-memory only).
 - Add validation (maybe with Zod) + better logging
 - Improve test coverage (edge cases, concurrency).
